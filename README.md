@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FITFAB S.A.C. - Sistema de Gimnasio
 
 Sistema de gestión de gimnasio con frontend HTML/CSS/JS y backend PHP REST API con MySQL.
@@ -205,6 +204,3 @@ LEFT JOIN membresias m ON s.id = m.socio_id AND m.estado = 'activo'
 LEFT JOIN planes p ON m.plan_id = p.id
 ORDER BY m.fecha_vencimiento ASC;
 ```
-=======
-# Sistema-Gimnasio
->>>>>>> 11ac4b47ca04b5b7c5ab9886d4a5b86d281fee0e
